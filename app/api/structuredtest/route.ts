@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
         });
       },
     });
-
+    console.log(result);
     return result.toTextStreamResponse();
   } catch (error) {
     throw Error((error as Error).message);
