@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import Marquee from "react-fast-marquee";
 
 export default function Home() {
@@ -24,6 +24,7 @@ export default function Home() {
       <div className="h-screen w-screen bg-amber-700"></div>
       <div className="h-screen w-screen bg-green-700"></div>
       <div className="h-screen w-screen bg-blue-700"></div>
+      <div className="h-screen w-screen bg-purple-700"></div>
     </>
   );
 }
